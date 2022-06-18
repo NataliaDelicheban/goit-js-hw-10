@@ -18,3 +18,15 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.country-info {
+  background-color: rgb(241, 241, 84);
+}
+.title {
+  color: blue;
+}
+
+.text {
+  color: rgb(58, 58, 206);
+  font-size: 24px;
+  font-weight: 700;
+}
