@@ -26,7 +26,6 @@ function searchCountry(e) {
 }
 
 function renderCountries(countries) {
-  // console.log(countries);
   const countriesLength = countries.length;
 
   if (countriesLength > 10) {
