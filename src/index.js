@@ -13,8 +13,8 @@ input.addEventListener('input', debounce(searchCountry, DEBOUNCE_DELAY));
 
 function searchCountry(e) {
   clearInput();
-  const inputCountry = e.target.value;
-  inputCountry.trim();
+  const inputCountry = e.target.value.trim();
+  // inputCountry.trim();
   if (inputCountry === '') {
     return;
   }
